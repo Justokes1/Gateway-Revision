@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Sulphur Point', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+/* ---v Hero v--- */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  max-width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 20px 20px;
+
+}
+
+.hero-text p {
+  font-size: 15px;
+}
+
+/* ---v Nav v--- */
+
+.logo {
+  text-transform: uppercase;
+}
+
+/* ---v Home v---*/
+
+.about {
+  width: 85%;
+  margin: 20px auto;  
+}
+
+.about article {
+  width: 49%;
+  height: 50vh;
+  background-color: #002E3B;
+  border-radius: 5px;
+}
+
+.cost {
+  float:left;
+  color: white;
+}
+
+.facts {
+  float: right;
+  color: orange;
+}
+
+/* ---v Things to Do v--- */
+
+.todo {
+  width: 90%;
+  margin: auto;
+}
+
+.right, .left {
+  height: 30vh;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.right{
+  background-color: #7B5965;
+}
+
+.left{
+  background-color:  #364869;
+}
+
+/* ---v Contact v--- */
+.contact {
+  width: 80%;
+  margin: auto;
+}
+
+.form {
+  float: right;
+  height: 75vh;
+  width: 49%;
+  background-color: aquamarine;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* ---v Footer v--- */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h4 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  width:75%;
+  margin: auto;
+}
+
+
+
+
+
+
