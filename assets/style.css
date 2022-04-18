@@ -14,6 +14,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .hero-text {
@@ -49,6 +50,7 @@
   height: 50vh;
   background-color: #002E3B;
   border-radius: 5px;
+  padding: 20px;
 }
 
 .cost {
@@ -72,6 +74,9 @@
   height: 30vh;
   border-radius: 5px;
   margin: 10px 0;
+  padding: 20px;
+  display: inline-block;
+
 }
 
 .right{
@@ -80,6 +85,14 @@
 
 .left{
   background-color:  #364869;
+}
+
+.img-right{
+  float: right;
+}
+
+.img-left{
+  float: left;
 }
 
 /* ---v Contact v--- */
@@ -93,12 +106,21 @@
   height: 75vh;
   width: 49%;
   background-color: red;
+  margin-bottom: 15px;
+}
+
+.info {
+  float: left;
+  height: 75vh;
+  width: 49%;
+  padding: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  
+  width: 60%;
+  margin: auto;
 }
 
 /* ---v Footer v--- */
