@@ -17,6 +17,10 @@
   overflow: hidden;
 }
 
+.hero img {
+  margin: auto;
+}
+
 .hero-text {
   max-width: 50%;
   position: absolute;
@@ -105,8 +109,7 @@
   float: right;
   height: 75vh;
   width: 49%;
-  background-color: red;
-  margin-bottom: 15px;
+  background-color: #ABCEAF;
 }
 
 .info {
@@ -120,7 +123,15 @@ form {
   display: flex;
   flex-direction: column;
   width: 60%;
-  margin: auto;
+  margin: 20px auto;
+}
+
+label {
+  padding-top: 15px;
+}
+
+textarea {
+  height: 20vh;
 }
 
 /* ---v Footer v--- */
